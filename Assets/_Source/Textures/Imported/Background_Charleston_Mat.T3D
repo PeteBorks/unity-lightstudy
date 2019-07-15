@@ -1,0 +1,49 @@
+Begin Object Class=/Script/Engine.Material Name="Background_Charleston_Mat"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.200000
+      MaterialExpressionEditorX=-205
+      MaterialExpressionEditorY=42
+      MaterialExpressionGuid=E4F601894ACF69790E661590FE24F68D
+      Material=Material'"Background_Charleston_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_0"
+      Input=(Expression=MaterialExpressionTextureSample'"Background_Charleston_Mat:MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Fraction=(Expression=MaterialExpressionConstant'"Background_Charleston_Mat:MaterialExpressionConstant_0"')
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=6CC393CE405F61EEEE7EBA9940F26B7E
+      Material=Material'"Background_Charleston_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Charleston/Texture/viber_image_2019-02-08___23_251.viber_image_2019-02-08___23_251"'
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=1730A9AD4F5D341B1520E9BB85FA6F9F
+      Material=Material'"Background_Charleston_Mat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_0"')
+   OpacityMask=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',OutputIndex=4,Mask=1,MaskA=1)
+   BlendMode=BLEND_Masked
+   bUsedWithStaticLighting=True
+   EditorX=96
+   EditorY=-16
+   Expressions(0)=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   StateId=A78FA1EA4DC2C34AFCB65FBFFCA87414
+   ReferencedTextureGuids(0)=74675425472CC0FAFE18F8AD7B1D7E5B
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="viber_image_2019-02-08___23_251",TextureReference=/Game/Charleston/Texture/viber_image_2019-02-08___23_251.viber_image_2019-02-08___23_251)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=B5CED393462182D9F5E80AA19C37A737
+End Object
